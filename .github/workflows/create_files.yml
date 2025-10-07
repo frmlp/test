@@ -19,7 +19,7 @@ jobs:
         python-version: '3.x'
         
     - name: Create file
-      run: python script.py
+      run: python scripts/script.py
         
     - name: Commit and push if changed
       env:
